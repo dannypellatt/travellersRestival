@@ -1,0 +1,202 @@
+/* START global SECTION */
+
+body {
+    background-color: rgb(246, 243, 237);
+}
+
+body, h1, h2, h3, p {
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-weight: 900;
+    line-height: 1;
+}
+
+h2, h3, p {
+    margin-bottom: 1em;
+}
+
+.important {
+    font-size: 35px;
+}
+
+img {
+    display: block;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    padding: 0 1em;
+    margin: 0 auto;
+    max-width: 70rem;
+    text-align: center;
+}
+
+.section {
+    padding: 3em 0;
+}
+
+/* END global SECTION */
+
+/* START navbar SECTION */
+
+#navbar { 
+    padding-bottom: 0;
+    background: rgb(34 39 47);
+    color: white;
+}
+
+#navbar ul {
+    padding-left: 0;
+}
+
+#navbar li {
+    display: inline-flex;
+    padding: 1em;
+    border-top: 1px solid rgb(206, 152, 83);
+    border-bottom: 1px solid rgb(206, 152, 83);
+    margin: 1em 1em;
+    min-width: 5em;
+    justify-content: center;
+}
+
+#navbar a { 
+    color: white;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: rgb(206, 152, 83);
+}
+
+/* END navbar SECTION */
+
+/* START home SECTION */
+
+.date {
+    font-size: 30px;
+}
+
+/* END home SECTION */
+
+/* START lineup  SECTION */
+
+#lineupsection {
+    padding: 2em;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.lineup {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lineup > * {
+    flex: 1 1 40%;
+    padding: 2em;
+    margin: .5em;
+    background-color: rgb(34 39 47);
+    color: white;
+}
+
+.lineup h3 {
+    border-top: white 1px solid;
+    padding-top: 1em;
+}
+
+.lineup p {
+    border-bottom: white 1px solid;
+    padding-bottom: 1em;
+}
+
+/* END lineup SECTION */
+
+/* START info SECTION */
+
+#infosection {
+    padding: 2em;
+    padding-bottom: 0;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info > * {
+    flex: 1 1 20%;
+    min-width: 12em;
+}
+
+/* END info SECTION */
+
+/* START camping SECTION */
+
+#campingsection {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid black;
+    padding-top: 0px;
+}
+
+#campingsection > * {
+    flex: 1 1 30%;
+    min-width: 20em;
+}
+
+#campingsection p {
+    margin: 1em;
+    text-align: left;
+    text-indent: 30px;
+}
+
+#campingsection h1 {
+    margin: 1em;
+    text-align: left;
+}
+
+#camping {
+    margin: auto;
+    padding: 2em;
+}
+
+#food {
+        margin: auto;
+        padding: 2em;
+    }
+
+/* END camping SECTION */
+
+/* START contact SECTION */
+
+#contactsection {
+    padding: 1em 2em;
+    background: rgb(34 39 47);
+    color: white;
+}
+
+#contactsection li {
+    display: inline-flex;
+    padding: 1em;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin: 1em 1em;
+    font-size: 20px;
+}
+
+#contactsection a { 
+    color: white;
+    text-decoration: none;
+}
+
+#contactsection a:hover {
+    color: rgb(206, 152, 83);
+}
+
+/* END contact SECTION */
